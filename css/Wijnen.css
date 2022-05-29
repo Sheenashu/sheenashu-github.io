@@ -1,0 +1,28 @@
+﻿main {
+    background-color: rgb(243, 240, 213);
+}
+body{
+    font-family: roboto Condensed;
+    line-height: 1, 5;
+}
+#nav li {
+    float: left;
+    display: inline;
+}
+#nav li {
+    float: left;
+    display: inline;
+    margin-right: 15px;
+}
+.center{
+    text-align: center
+}
+.fontstyle{
+    font-style: italic;
+}
+h1{
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+

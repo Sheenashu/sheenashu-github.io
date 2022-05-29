@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="css/Index.css">
+</head>
+<body>
+
+    <header>
+            <nav>
+                <span>
+                    <ul class="navi-bar">
+                        <li class="active"><a href="/mywebsite/">Home</a></li>
+                        <li><a href="/mywebsite/Wijnen">Wijn</a></li>
+                        <li><a href="/mywebsite/Catering">Catering</a></li>
+                        <li><a href="/mywebsite/Evenementen">Evenementen</a></li>
+                        <li><a href="/mywebsite/Nieuws">Nieuws</a></li>
+                        <li><a href="/mywebsite/Contact">Contact</a></li>
+                    </ul>                      
+                </span>               
+            </nav>
+    </header>
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+               <label for="Naam"><input type="text" value="Naam"></label>
+            </p>
+            <p>
+                <label for="Je email-adres"><input type="email" value="Email-adres"></label>
+            </p>
+            <p>
+                <label>Your role: <select name="role()" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+                </select></label>
+            </p>
+            <p>
+                <label> Message: <textarea name="message"></textarea></label> 
+            </p>
+           <p>
+                <button type="submit">Verzenden</button> 
+            </p>
+        </form>
+    </main>
+      
+
+</body>
+</html>
